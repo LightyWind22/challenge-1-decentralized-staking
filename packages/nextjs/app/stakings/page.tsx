@@ -1,15 +1,26 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import type { NextPage } from "next";
 import { formatEther } from "viem";
 import { Address } from "~~/components/scaffold-eth";
 import { useScaffoldEventHistory } from "~~/hooks/scaffold-eth";
 
 const Stakings: NextPage = () => {
+  // --- THÊM ĐOẠN NÀY ---
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const { data: stakeEvents, isLoading } = useScaffoldEventHistory({
     contractName: "Staker",
     eventName: "Stake",
   });
+
+  // Nếu chưa mount (đang ở server), trả về null hoặc loading để tránh lỗi indexedDB
+  if (!isMounted) return <div>Loading...</div>;
 
   if (isLoading)
     return (
@@ -44,9 +55,9 @@ const Stakings: NextPage = () => {
                 return (
                   <tr key={index}>
                     <td>
-                      <Address address={event.args?.[0]} />
+                      <Address address={event.args?.staker} />
                     </td>
-                    <td>{formatEther(event.args?.[1] || 0n)} ETH</td>
+                    <td>{formatEther(event.args?.amount || 0n)} ETH</td>
                   </tr>
                 );
               })

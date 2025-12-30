@@ -1,0 +1,230 @@
+{
+  "address": "0x8b6F25219e0c48A687d5e6f71561a4510096F3E8",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "exampleExternalContractAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "staker",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Stake",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balances",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "deadline",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "exampleExternalContract",
+      "outputs": [
+        {
+          "internalType": "contract ExampleExternalContract",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "execute",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "stake",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "threshold",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "timeLeft",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "transactionHash": "0x9d4d2e8df50b8f85aba31990e68dad07f4aa75ba6c59ba88a768ccc59ef902ad",
+  "receipt": {
+    "to": null,
+    "from": "0x6da8D376B746C60C982a7AcC8F485ebf4E92DAD0",
+    "contractAddress": "0x8b6F25219e0c48A687d5e6f71561a4510096F3E8",
+    "transactionIndex": 89,
+    "gasUsed": "480043",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x83534d79f7d89422aadfe12a01305774a4c5c53d1b44c1a8bd48b86b849905f6",
+    "transactionHash": "0x9d4d2e8df50b8f85aba31990e68dad07f4aa75ba6c59ba88a768ccc59ef902ad",
+    "logs": [],
+    "blockNumber": 9656391,
+    "cumulativeGasUsed": "10323065",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x70be246BcF733F0DD7cA8365eB41f48308De2d23"
+  ],
+  "numDeployments": 3,
+  "solcInputHash": "6c8138519613213a5fab9ae6d76dd2a8",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"exampleExternalContractAddress\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"staker\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Stake\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balances\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"deadline\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"exampleExternalContract\",\"outputs\":[{\"internalType\":\"contract ExampleExternalContract\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"execute\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"stake\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"threshold\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"timeLeft\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Staker.sol\":\"Staker\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/ExampleExternalContract.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.20; //Do not change the solidity version as it negatively impacts submission grading\\n\\ncontract ExampleExternalContract {\\n    bool public completed;\\n\\n    function complete() public payable {\\n        completed = true;\\n    }\\n}\\n\",\"keccak256\":\"0x9d7b4fb853a08a242fd15aab47631e4df4b6a455c781c84a77e5888b9badf359\",\"license\":\"MIT\"},\"contracts/Staker.sol\":{\"content\":\"pragma solidity >=0.8.0 <0.9.0;\\n//SPDX-License-Identifier: MIT\\n\\nimport './ExampleExternalContract.sol';\\n\\ncontract Staker {\\n  ExampleExternalContract public exampleExternalContract;\\n\\n  constructor(address exampleExternalContractAddress) {\\n    exampleExternalContract = ExampleExternalContract(exampleExternalContractAddress);\\n    deadline = block.timestamp + 72 hours;\\n  }\\n\\n  mapping(address => uint256) public balances;\\n\\n  uint256 public constant threshold = 1 ether;\\n  uint256 public deadline;\\n  bool openForWithdrawal = false;\\n\\n  event Stake(address indexed staker, uint256 amount);\\n\\n  modifier notCompleted() {\\n    require(!exampleExternalContract.completed(), 'Already completed');\\n    _;\\n  }\\n\\n  function stake() external payable notCompleted {\\n    require(block.timestamp < deadline, 'Deadline has passed');\\n    balances[msg.sender] += msg.value;\\n    emit Stake(msg.sender, msg.value);\\n  }\\n\\n  function execute() external notCompleted {\\n    if (address(this).balance > threshold) {\\n      exampleExternalContract.complete{value: address(this).balance}();\\n    } else {\\n      openForWithdrawal = true;\\n    }\\n  }\\n\\n  function withdraw() external notCompleted {\\n    require(address(this).balance < threshold, 'Threshhold met');\\n    require(openForWithdrawal, 'Not open for withdrawal');\\n    uint256 amount = balances[msg.sender];\\n    balances[msg.sender] = 0;\\n    (bool ok, ) = payable(msg.sender).call{value: amount}('');\\n    require(ok);\\n  }\\n\\n  function timeLeft() public view returns (uint256) {\\n    return block.timestamp < deadline ? deadline - block.timestamp : 0;\\n  }\\n\\n  // TODO: Add the `receive()` special function that receives eth and calls stake()\\n  receive() external payable {\\n    this.stake();\\n  }\\n}\",\"keccak256\":\"0x0f8291b379f6d454dc75436690b3933c2066a6e695cea526d1c6d96ae1491f99\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60806040526003805460ff1916905534801561001a57600080fd5b506040516107a33803806107a38339810160408190526100399161006a565b600080546001600160a01b0319166001600160a01b038316179055610061426203f48061009a565b600255506100c1565b60006020828403121561007c57600080fd5b81516001600160a01b038116811461009357600080fd5b9392505050565b808201808211156100bb57634e487b7160e01b600052601160045260246000fd5b92915050565b6106d3806100d06000396000f3fe60806040526004361061007f5760003560e01c80633ccfd60b1161004e5780633ccfd60b1461014d57806342cde4e814610162578063614619541461017e5780639f75f2271461019357600080fd5b80631300a6d1146100da57806327e235e31461010257806329dcb0cf1461012f5780633a4b66f11461014557600080fd5b366100d557306001600160a01b0316633a4b66f16040518163ffffffff1660e01b8152600401600060405180830381600087803b1580156100bf57600080fd5b505af11580156100d3573d6000803e3d6000fd5b005b600080fd5b3480156100e657600080fd5b506100ef6101cb565b6040519081526020015b60405180910390f35b34801561010e57600080fd5b506100ef61011d3660046105de565b60016020526000908152604090205481565b34801561013b57600080fd5b506100ef60025481565b6100d36101ef565b34801561015957600080fd5b506100d361032c565b34801561016e57600080fd5b506100ef670de0b6b3a764000081565b34801561018a57600080fd5b506100d36104c4565b34801561019f57600080fd5b506000546101b3906001600160a01b031681565b6040516001600160a01b0390911681526020016100f9565b600060025442106101dc5750600090565b426002546101ea9190610624565b905090565b60008054906101000a90046001600160a01b03166001600160a01b0316639d9a7fe96040518163ffffffff1660e01b8152600401602060405180830381865afa158015610240573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610264919061063d565b1561028a5760405162461bcd60e51b81526004016102819061065f565b60405180910390fd5b60025442106102d15760405162461bcd60e51b8152602060048201526013602482015272111958591b1a5b99481a185cc81c185cdcd959606a1b6044820152606401610281565b33600090815260016020526040812080543492906102f090849061068a565b909155505060405134815233907febedb8b3c678666e7f36970bc8f57abf6d8fa2e828c0da91ea5b75bf68ed101a9060200160405180910390a2565b60008054906101000a90046001600160a01b03166001600160a01b0316639d9a7fe96040518163ffffffff1660e01b8152600401602060405180830381865afa15801561037d573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103a1919061063d565b156103be5760405162461bcd60e51b81526004016102819061065f565b670de0b6b3a764000047106104065760405162461bcd60e51b815260206004820152600e60248201526d151a1c995cda1a1bdb19081b595d60921b6044820152606401610281565b60035460ff166104585760405162461bcd60e51b815260206004820152601760248201527f4e6f74206f70656e20666f72207769746864726177616c0000000000000000006044820152606401610281565b33600081815260016020526040808220805490839055905190929083908381818185875af1925050503d80600081146104ad576040519150601f19603f3d011682016040523d82523d6000602084013e6104b2565b606091505b50509050806104c057600080fd5b5050565b60008054906101000a90046001600160a01b03166001600160a01b0316639d9a7fe96040518163ffffffff1660e01b8152600401602060405180830381865afa158015610515573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610539919061063d565b156105565760405162461bcd60e51b81526004016102819061065f565b670de0b6b3a76400004711156105cf5760008054906101000a90046001600160a01b03166001600160a01b031663522e1177476040518263ffffffff1660e01b81526004016000604051808303818588803b1580156105b457600080fd5b505af11580156105c8573d6000803e3d6000fd5b5050505050565b6003805460ff19166001179055565b6000602082840312156105f057600080fd5b81356001600160a01b038116811461060757600080fd5b9392505050565b634e487b7160e01b600052601160045260246000fd5b818103818111156106375761063761060e565b92915050565b60006020828403121561064f57600080fd5b8151801515811461060757600080fd5b602080825260119082015270105b1c9958591e4818dbdb5c1b195d1959607a1b604082015260600190565b808201808211156106375761063761060e56fea26469706673582212206296411189dad6e3653d16dcf49d4b57c9c3283330973c070230c96b93849e8564736f6c63430008140033",
+  "deployedBytecode": "0x60806040526004361061007f5760003560e01c80633ccfd60b1161004e5780633ccfd60b1461014d57806342cde4e814610162578063614619541461017e5780639f75f2271461019357600080fd5b80631300a6d1146100da57806327e235e31461010257806329dcb0cf1461012f5780633a4b66f11461014557600080fd5b366100d557306001600160a01b0316633a4b66f16040518163ffffffff1660e01b8152600401600060405180830381600087803b1580156100bf57600080fd5b505af11580156100d3573d6000803e3d6000fd5b005b600080fd5b3480156100e657600080fd5b506100ef6101cb565b6040519081526020015b60405180910390f35b34801561010e57600080fd5b506100ef61011d3660046105de565b60016020526000908152604090205481565b34801561013b57600080fd5b506100ef60025481565b6100d36101ef565b34801561015957600080fd5b506100d361032c565b34801561016e57600080fd5b506100ef670de0b6b3a764000081565b34801561018a57600080fd5b506100d36104c4565b34801561019f57600080fd5b506000546101b3906001600160a01b031681565b6040516001600160a01b0390911681526020016100f9565b600060025442106101dc5750600090565b426002546101ea9190610624565b905090565b60008054906101000a90046001600160a01b03166001600160a01b0316639d9a7fe96040518163ffffffff1660e01b8152600401602060405180830381865afa158015610240573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610264919061063d565b1561028a5760405162461bcd60e51b81526004016102819061065f565b60405180910390fd5b60025442106102d15760405162461bcd60e51b8152602060048201526013602482015272111958591b1a5b99481a185cc81c185cdcd959606a1b6044820152606401610281565b33600090815260016020526040812080543492906102f090849061068a565b909155505060405134815233907febedb8b3c678666e7f36970bc8f57abf6d8fa2e828c0da91ea5b75bf68ed101a9060200160405180910390a2565b60008054906101000a90046001600160a01b03166001600160a01b0316639d9a7fe96040518163ffffffff1660e01b8152600401602060405180830381865afa15801561037d573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103a1919061063d565b156103be5760405162461bcd60e51b81526004016102819061065f565b670de0b6b3a764000047106104065760405162461bcd60e51b815260206004820152600e60248201526d151a1c995cda1a1bdb19081b595d60921b6044820152606401610281565b60035460ff166104585760405162461bcd60e51b815260206004820152601760248201527f4e6f74206f70656e20666f72207769746864726177616c0000000000000000006044820152606401610281565b33600081815260016020526040808220805490839055905190929083908381818185875af1925050503d80600081146104ad576040519150601f19603f3d011682016040523d82523d6000602084013e6104b2565b606091505b50509050806104c057600080fd5b5050565b60008054906101000a90046001600160a01b03166001600160a01b0316639d9a7fe96040518163ffffffff1660e01b8152600401602060405180830381865afa158015610515573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610539919061063d565b156105565760405162461bcd60e51b81526004016102819061065f565b670de0b6b3a76400004711156105cf5760008054906101000a90046001600160a01b03166001600160a01b031663522e1177476040518263ffffffff1660e01b81526004016000604051808303818588803b1580156105b457600080fd5b505af11580156105c8573d6000803e3d6000fd5b5050505050565b6003805460ff19166001179055565b6000602082840312156105f057600080fd5b81356001600160a01b038116811461060757600080fd5b9392505050565b634e487b7160e01b600052601160045260246000fd5b818103818111156106375761063761060e565b92915050565b60006020828403121561064f57600080fd5b8151801515811461060757600080fd5b602080825260119082015270105b1c9958591e4818dbdb5c1b195d1959607a1b604082015260600190565b808201808211156106375761063761060e56fea26469706673582212206296411189dad6e3653d16dcf49d4b57c9c3283330973c070230c96b93849e8564736f6c63430008140033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 18,
+        "contract": "contracts/Staker.sol:Staker",
+        "label": "exampleExternalContract",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_contract(ExampleExternalContract)12"
+      },
+      {
+        "astId": 41,
+        "contract": "contracts/Staker.sol:Staker",
+        "label": "balances",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_uint256)"
+      },
+      {
+        "astId": 46,
+        "contract": "contracts/Staker.sol:Staker",
+        "label": "deadline",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 49,
+        "contract": "contracts/Staker.sol:Staker",
+        "label": "openForWithdrawal",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_contract(ExampleExternalContract)12": {
+        "encoding": "inplace",
+        "label": "contract ExampleExternalContract",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
